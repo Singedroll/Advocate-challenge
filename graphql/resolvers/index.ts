@@ -1,5 +1,7 @@
+import { Test } from "mocha";
 import { sayHello } from "./mutations/say-hello";
 import { helloQuery } from "./queries/hello-query";
+import { test } from "./mutations/test";
 
 export const resolvers = {
   Query: {
@@ -7,5 +9,6 @@ export const resolvers = {
   },
   Mutation: {
     sayHello,
+    test,
   },
 };

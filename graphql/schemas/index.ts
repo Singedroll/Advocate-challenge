@@ -7,5 +7,6 @@ export const typeDefs = gql`
 
   type Mutation {
     sayHello(name: String!): String
+    test(word: String!): String
   }
 `;
